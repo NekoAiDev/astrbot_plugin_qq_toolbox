@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "title": "QQ 功能工具箱配置",
+  "properties": {
+    "weather_city_default": {
+      "type": "string",
+      "title": "默认天气城市",
+      "description": "未指定城市时查询该城市的天气",
+      "default": "Beijing"
+    },
+    "daily_push_time": {
+      "type": "string",
+      "title": "每日早报推送时间 (HH:MM，24小时制)",
+      "description": "每天自动发送早报的时间，留空则不推送",
+      "default": "08:00"
+    },
+    "daily_push_groups": {
+      "type": "array",
+      "title": "早报推送群号列表",
+      "description": "需要接收每日早报的群号，留空则不推送",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "repeater_threshold": {
+      "type": "integer",
+      "title": "复读触发次数阈值",
+      "description": "连续相同消息达到此次数时触发复读",
+      "default": 3
+    },
+    "fortune_seed_by_user": {
+      "type": "boolean",
+      "title": "今日运势按用户ID固定（每人每天固定结果）",
+      "description": "开启后同一用户同一天运势结果不变",
+      "default": true
+    }
+  },
+  "required": []
+}

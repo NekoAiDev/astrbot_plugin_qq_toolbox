@@ -1,0 +1,7 @@
+metadata_version: "0.4.1"
+plugin_name: astrbot_plugin_qq_toolbox
+plugin_version: "1.0.0"
+author: 小红蛋
+description: QQ 功能工具箱：娱乐、实用查询、内容生成、群管工具，20+ 指令一站式集成
+repo: https://github.com/xiaohondan/astrbot_plugin_qq_toolbox
+platform: ["qq_official", "aiocqhttp"]
