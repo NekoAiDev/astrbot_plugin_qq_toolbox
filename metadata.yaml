@@ -8,8 +8,3 @@ repo: https://github.com/NekoAiDev/astrbot_plugin_qq_toolbox
 support_platforms:                         # （可选）支持的平台适配器列表
   - aiocqhttp
   - qq_official
-social_link: https://nekoaidev.top https://studio.nekoaidev.top/ https://github.com/xiaohondan https://github.com/NekoAiDev
-tags:   
-    - QQ
-    - 功能
-    -工具箱
