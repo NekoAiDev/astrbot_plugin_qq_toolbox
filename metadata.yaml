@@ -9,7 +9,7 @@ support_platforms:                         # （可选）支持的平台适配�
   - aiocqhttp
   - qq_official
 social_link: https://nekoaidev.top https://studio.nekoaidev.top/ https://github.com/xiaohondan https://github.com/NekoAiDev
-标签:      
-  - QQ
-  - 功能
-  -工具箱
+tags:   
+    - QQ
+    - 功能
+    -工具箱
