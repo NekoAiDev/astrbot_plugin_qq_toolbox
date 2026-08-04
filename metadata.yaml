@@ -1,7 +1,16 @@
-metadata_version: "0.4.1"
-plugin_name: astrbot_plugin_qq_toolbox
-plugin_version: "1.0.0"
+name: astrbot_plugin_qq_toolbox
+display_name: QQ 功能工具箱
+short_desc: 娱乐 / 实用查询 / 内容生成 / 群管工具，20+ 指令一站式集成
+desc: QQ 功能工具箱：娱乐、实用查询、内容生成、群管工具，20+ 指令一站式集成
+version: 1.0.0 
 author: 小红蛋
-description: QQ 功能工具箱：娱乐、实用查询、内容生成、群管工具，20+ 指令一站式集成
-repo: https://github.com/xiaohondan/astrbot_plugin_qq_toolbox
-platform: ["qq_official", "aiocqhttp"]
+repo: https://github.com/NekoAiDev/astrbot_plugin_qq_toolbox
+support_platforms:                         # （可选）支持的平台适配器列表
+  - aiocqhttp
+  - qq_official
+social_link: https://nekoaidev.top https://studio.nekoaidev.top/ https://github.com/xiaohondan https://github.com/NekoAiDev
+标签:      
+  - QQ
+  - 功能
+  -工具箱
+  -实用
